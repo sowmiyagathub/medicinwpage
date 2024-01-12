@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #3498db;
+    color: #db0fb5;
+    text-align: center;
+    padding: 1em 0;
+    font-size: x-large;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-image: "hosimg.jpg";
+    color: black;
+}
+
+section {
+    padding: 10px;
+    margin: 20px;
+    background-color: #db0fb5;
+    border-radius: 5px;
+    font-style:bold ;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product-item {
+    flex: 10 calc(33.33% - 20px);
+    padding: 50px;
+    background-color:antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #3498db;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+p{
+    font-style: italic;
+
+ }   
+}
